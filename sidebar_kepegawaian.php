@@ -64,11 +64,11 @@ function isActive($pages) {
         <a href="jabatan.php" class="<?= isActive('jabatan.php') ?>">Jabatan</a>
     </div>
 
-    <a class="toggle-btn <?= isActive(['skp_tahunan.php','hasil_log_harian.php','kehadiran_kepegawaian.php']) ?>">
+    <a class="toggle-btn <?= isActive(['notifikasi_absensi.php','hasil_log_harian.php','kehadiran_kepegawaian.php']) ?>">
         <i class="bi bi-card-checklist"></i> Kinerja & Penilaian
     </a>
     <div class="submenu">
-        <a href="skp_tahunan.php" class="<?= isActive('skp_tahunan.php') ?>">SKP Tahunan</a>
+        <a href="notifikasi_absensi.php" class="<?= isActive('notifikasi_absensi.php') ?>">Notifikasi Absensi</a>
         <a href="hasil_log_harian.php" class="<?= isActive('hasil_log_harian.php') ?>">Hasil Log Harian Pegawai</a>
         <a href="kehadiran_kepegawaian.php" class="<?= isActive('kehadiran_kepegawaian.php') ?>">Kehadiran / Izin</a>
     </div>
