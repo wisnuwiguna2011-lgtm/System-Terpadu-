@@ -1,0 +1,9 @@
+# File & folder yang tidak perlu disimpan di Git
+.env
+error_log
+php-error.log
+uploads/
+vendor/
+cache/
+node_modules/
+*.zip
